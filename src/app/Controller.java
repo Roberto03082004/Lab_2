@@ -123,7 +123,7 @@ public class Controller {
         //Temps
         double temp1 = Math.cos(Math.pow(airflow, 3));
         double temp2 = Math.pow(Math.exp(1), 6*x*Math.pow(y, 4));
-        double temp3 = 2*Math.sqrt(7*x*Math.pow(y, 5.32)*z);
+        double temp3 = 2*Math.sqrt(7*(x*Math.pow(y,5.23)*z));
         double temp4 = 1.8*x*y*z;
         double temp5 = Math.pow(0.75, Math.pow(2, x*y*z));
         double temp6 = Math.sqrt(airflow + x);
